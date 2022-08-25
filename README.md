@@ -54,6 +54,6 @@ Some of our resources were:
 
 Broad Institute gnomAD 
 
-gnomAD v3.1](https://gnomad.broadinstitute.org/news/2020-10-gnomad-v3-1-new-content-methods-annotations-and-data-availability/#sample-and-variant-quality-control)
+[gnomAD v3.1](https://gnomad.broadinstitute.org/news/2020-10-gnomad-v3-1-new-content-methods-annotations-and-data-availability/#sample-and-variant-quality-control/)
 
 [gnomAD v3.0](https://gnomad.broadinstitute.org/news/2019-10-gnomad-v3-0/)
