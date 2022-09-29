@@ -41,7 +41,7 @@ This pipeline is divided into steps. Each step comprises a series of commands an
 
 0. **KNOW YOUR DATASET**\
 0.a:  Use vcftools and bcftools to get general statistics\
-Edit line 8 of [get_quality_stats.sh] (get_quality_stats.sh)script with the name of your file and run as follows
+Edit line 8 of [get_quality_stats.sh](get_quality_stats.sh) script with the name of your file and run as follows
 ```
 chmod u+x get_quality_stats.sh
 ./get_quality_stats.sh
