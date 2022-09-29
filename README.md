@@ -40,14 +40,13 @@ with bwa-0.7.12 BAMs were sorted and duplicates were marked with Sambamba 0.5.4 
 This pipeline is divided into steps. Each step comprises a series of commands and a series of data-visualization scripts at each checkpoint.
 
 0. **KNOW YOUR DATASET**\
-	0.a:  Use vcftools and bcftools to get general statistics\
-	Edit line 8 of get_quality_stats.sh script with the name of your file and run as follows
+0.a:  Use vcftools and bcftools to get general statistics\
+Edit line 8 of get_quality_stats.sh script with the name of your file and run as follows
 ```
 chmod u+x get_quality_stats.sh
 ./get_quality_stats.sh
 ```	
-
- 	 0.b:  Generate plots to observe data distribution and quality [Fundamental for using this pipeline on another dataset]
+0.b:  Generate plots to observe data distribution and quality [Fundamental for using this pipeline on another dataset]
 
 1. **SOFT QUALITY CONTROL**\
       1.a:Divide your data into Autosomes and Sex chromosomes. \
