@@ -35,6 +35,42 @@ with bwa-0.7.12 BAMs were sorted and duplicates were marked with Sambamba 0.5.4 
 
 * The scripts presented here are provided as a QC pipeline guide, rather than a plug and play script. There are steps that require a 'manual evaluation', and as many scripts, it needs to be tuned according to the user needs.
 
+### Running
+
+This pipeline is divided into steps. Each step comprises a series of commands and a series of data-visualization scripts at each checkpoint.
+
+0. **KNOW YOUR DATASET**\
+      0.a:  Use vcftools and bcftools to get general statistics 
+			
+      0.b:  Generate plots to observe data distribution and quality [Fundamental for using this pipeline on another dataset]
+
+1. **SOFT QUALITY CONTROL**\
+      1.a:Divide your data into Autosomes and Sex chromosomes. \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Filter individuals with autosomal missingness higher than 10%. \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Filter autosomal sites with missingness higher than 10% 
+          
+      1.b: Generate plots to observe data distribution and quality
+   
+The **STRINGENT QUALITY CONTROL** is divided into the following steps:
+
+
+2. **CHROMOSOMAL SEX CHECK**
+3. **SITE QUALITY FILTERING** 
+4. **INDIVIDUAL QUALITY FILTERING**
+5. **GENERATE PLINK FILES**
+6. **RELATIONSHIP INFERENCE AND MENDEL ERRORS**
+7. **STRINGENT MISSINGNESS QC**
+8. **GENERAL REPORT OF POST QC STATISTICS**
+9. **PRINCIPAL COMPONENT ANALYSIS TO DETECT BATCH EFFECTS**
+
+
+
+
+
+
+
+
+
 ## Authors
 
 Juliana Acosta-Uribe
