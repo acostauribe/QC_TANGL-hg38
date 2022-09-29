@@ -1,16 +1,8 @@
 #!/bin/bash
-# Copyright Juliana Acosta-Uribe, Ada Madejska. University of California Santa Barbara
+# Copyright Juliana Acosta-Uribe & Ada Madejska. University of California Santa Barbara
+# 2022
 
-# This script is an overview of the pre-quality control commands used to analyze the dataset. 
-
-# STEP -1: CHECK VCF FILE, 
-# STEP -0: SET UP DATA AND VARIABLES 
-# STEP 1.a: SOFT QC
-# STEP 1.b: GENERAL REPORT OF PRE QC STATISTICS
-
-
-## STEP -1: CHECK VCF FILE===================================================================
-## STEP 0: SET UP DATA AND VARIABLES===================================================================
+# This script is an overview of the soft quality control steps
 
 ## Files with the data you want to QC
 PREFIX_raw = 'joint_colombia_annotated.hg38' #PREFIX of the raw dataset. Should be a vcf.gz
